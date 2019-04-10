@@ -6,7 +6,10 @@ public class Reservation {
     private String id;
     private User user;
     private String message;
-
+/**
+* This is the reservation model.
+* It is the core entity of our software system.
+*/
     public Reservation(User user, String message) {
         this.user = user;
         this.message = message;
